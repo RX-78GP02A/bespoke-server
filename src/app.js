@@ -16,12 +16,6 @@ const morganOption = (NODE_ENV === 'production')
 app.use(morgan(morganOption))
 app.use(helmet()),
 
-app.use('/', (req, res) => {
-    res.send(`
-      <h1>Bespoke Server</h1>
-    `)
-  })
-
 app.use(cors({
   origin: function(origin, callback) {
     if(!origin) return callback(null, true);
