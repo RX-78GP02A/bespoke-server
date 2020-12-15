@@ -1,8 +1,8 @@
 const express = require('express')
 const RecipesService = require('./recipes-service')
-const RecipesRouter = express.Router();
+const recipesRouter = express.Router();
 
-RecipesRouter
+recipesRouter
     .route('/')
     .get((req, res, next) => {
         //assign req.query to a constant
@@ -28,4 +28,4 @@ RecipesRouter
         .catch(next)
     })
 
-module.exports = RecipesRouter
+module.exports = recipesRouter

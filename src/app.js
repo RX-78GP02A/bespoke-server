@@ -6,7 +6,7 @@ const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 const errorHandler = require('./middleware/error-handler')
 const postRecipeRouter = require('./postrecipe/postrecipe-router')
-const collectionsRouter = require('./recipes/recipes-router')
+const recipesRouter = require('./recipes/recipes-router')
 const app = express()
 
 const morganOption = (NODE_ENV === 'production')
@@ -32,8 +32,8 @@ app.get('/', (req, res) => {
 })
 // path '/postrecipe' , route handler function postRecipeRouter
 app.use('/postrecipe', postRecipeRouter)
-// path '/collections' , route handler function collectionsRouter
-app.use('/collections', collectionsRouter)
+// path '/recipes' , route handler function recipesRouter
+app.use('/recipes', recipesRouter)
 
 //error handler middleware
 app.use(errorHandler)
