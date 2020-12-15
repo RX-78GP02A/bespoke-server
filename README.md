@@ -1,26 +1,33 @@
-# Express Boilerplate!
+# BESPOKE-SERVER
+This is the backend server for Bespoke client: frontend @ https://github.com/RX-78GP02A/bespoke-cilent
 
-This is a boilerplate project used for starting new projects!
+Live demo of app hosted on vercel: 
 
-## Set up
+Live version of server hosted on heroku https://stark-river-56520.herokuapp.com/
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+Core Technologies
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+> Node.js
+> PostgresSQL
+> express.js
+> React
+> JWT
+> XSS
+> Hooks
 
-## Scripts
 
-Start the application `npm start`
+Services
 
-Start nodemon for the application `npm run dev`
+> /users: GET, POST, PATCH
+> /tasks: GET, POST, DELETE
+> /rewards: GET, POST, DELETE
+> Local/Development Set-up
 
-Run the tests `npm test`
+> Requirements: Node.js, npm, postgresql
 
-## Deploying
-
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
+1. Clone this repo
+2. Set up database table as habitually: $ createdb [connection-option...][option...] backburner
+3. Install node_modules and migrate:
+* .../bespoke-server $ npm install .../bespoke-server $ npm run migrate
+4. Seed database with sample data
+* .../bespoke-server $ psql -d recipes -f ./seeds/seed.recipes_tables.sql
