@@ -25,7 +25,6 @@ VALUES
     ('CAMERONS KICK', 'Scotch', '(1oz) Banknote Blended Scotch, (1oz) Jameson, (.75oz) lemon, (.75oz) orgeat, 2 dash angostura bitters', 'Shake and strain into a Coupe glass : Garnish: lemon wheel & cherry'),
     ('RUSTY NAIL', 'Scotch', '(2oz) Famous Grouse Black Blend, (.5oz) Drambuie', 'Build in a Rocks glass and stir until chilled, Garnish: orange twist'), 
     ('OLD FASHIONED', 'Bourbon', '(2oz) Evan Bonded Bourbon, (.25oz) demerara, 3 dashes Angostura bitters, 3 dashes Orange bitters', 'Build in a Rocks glass and stir until chilled, Garnish: orange twist with a cherry'), 
-    ('GOLD RUSH', 'Bourbon','(2oz) Larceny Bourbon', '(.75oz) lemon', '(.75oz) honey', 'Shake and strain over ice into a Rocks glass, No garnish'),
     ('NY SOUR', 'Bourbon', '(1.5oz) Evan Williams 1783, (.75)oz lemon, (.75oz) simple', 'Shake and strain over ice into a Rocks glass, Garnish: float of Tilia Malbec'), 
     ('WALDORF', 'Rye', '(2oz) Evan Bonded, (1oz) Cochi de Torino, 1 tsp  Absinthe, 1 dash angostura bitters', 'Stir and strain into a Martini glass, Garnish: cherry'), 
     ('SCOFFLAW', 'Rye', '(2oz) Overholt Rye Whiskey, (1oz) Dry Vermouth, (.75oz) lime, (.75oz) Grenadine, 2 dashes Orange Bitters', 'Shake and strain into a Coupe glass, No garnish'), 
@@ -36,6 +35,7 @@ VALUES
     ('MEX. FIRING SQUAD', 'Tequila','(2oz) Blanco Tequila, (.75oz) lime, (.75oz) grenadine, 5 dashes Angostura bitters', 'Shake and strain over ice into a Rocks glass, Garnish: lime wheel and cherry'),
     ('JUSCHU', 'Tequlia', '(2oz) Blanco Tequila, (.75oz) lime, (.75oz) honey, 2 dashes Angostura bitters', 'Shake and strain into a Coupe glass, No garnish'),
     ('MARGARITA', 'Tequila', '(2oz) Tequila or Mezcal, (1oz) lime, (.5oz) agave, 3 dashes saline solution', 'Shake and strain over ice into a Rocks glass, Garnish: Lime wheel'), 
-    ('MEZCAL OLD FASHIONED', 'Mezcal', '2oz Nuestra Soledad, (.25oz) agave, 3 dashes lemon bitters, 3 dashes orange bitters', 'Build in a Rocks glass and stir until chilled', 'Garnish: lemon twist'),
     ('MEZCAL NEGRONI', 'Mezcal', '(1oz) Fidencio Mezcal, (1oz) Ramazzotti, (1oz) Punt e Mes', 'Stir and strain over ice into a Big Rocks glass, Garnish: orange twist'),
     ('MEDICINA LATINA', 'Mezcal', '1.5oz Nuestra Soledad, (.75oz) lime, (.5oz) honey, (.25oz) ginger syrup', 'muddled ginger and pinch of Tajin : add remaining ingredients, Shake and strain over ice into a Rocks glass, Float .5oz Fidencio Mezcal : Garnish: candied ginger');
+
+    COMMIT;

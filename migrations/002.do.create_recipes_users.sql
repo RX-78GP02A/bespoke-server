@@ -2,7 +2,7 @@ CREATE TABLE recipes_users (
   id SERIAL PRIMARY KEY,
   username TEXT NOT NULL UNIQUE,
   first_name TEXT NOT NULL,
-  password TEXT NOT NULL,
+  password TEXT NOT NULL
 );
 ALTER TABLE recipes
   ADD COLUMN
