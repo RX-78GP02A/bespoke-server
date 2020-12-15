@@ -18,9 +18,8 @@ Core Technologies
 
 Services
 
-> /users: GET, POST, PATCH
-> /tasks: GET, POST, DELETE
-> /rewards: GET, POST, DELETE
+> /recipes: GET, POST, PATCH
+> /POST: GET, POST, 
 > Local/Development Set-up
 
 <img width="1186" alt="Screen Shot 2020-12-15 at 3 19 20 PM" src="https://user-images.githubusercontent.com/67432727/102273991-2db7e900-3ef1-11eb-8a58-151806abddf8.png">> 
