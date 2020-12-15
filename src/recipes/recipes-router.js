@@ -1,6 +1,6 @@
 const express = require('express')
 const RecipesService = require('./recipes-service')
-const RecipessRouter = express.Router();
+const RecipesRouter = express.Router();
 
 RecipesRouter
     .route('/')
