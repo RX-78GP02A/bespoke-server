@@ -27,7 +27,7 @@ Services
 Requirements: Node.js, npm, postgresql
 
 1. Clone this repo
-2. Set up database table as habitually: $ createdb [connection-option...][option...] backburner
+2. Set up database table as recipes: $ createdb [connection-option...][option...] backburner
 3. Install node_modules and migrate:
 * .../bespoke-server $ npm install .../bespoke-server $ npm run migrate
 4. Seed database with sample data
