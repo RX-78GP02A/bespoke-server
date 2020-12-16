@@ -5,13 +5,13 @@ describe('Recipes Endpoint', () => {
     const testRecipes = [
         {
             drink_name: 'Lorem',
-            main_liquor: 'Vodka',
+            main_liquor: 'Absinthe',
             ingredients: 'Lorem Ipsum Lorem Ipsum',
             instructions: 'Lorem Ipsum Lorem Ipsum'
         },
         {
             drink_name: 'Ipsum',
-            main_liquor: 'Tequila',
+            main_liquor: 'Gin',
             ingredients: 'Lorem Ipsum Lorem Ipsum',
             instructions: 'Lorem Ipsum Lorem Ipsum',
         },
@@ -21,6 +21,30 @@ describe('Recipes Endpoint', () => {
             ingredients: 'Lorem Ipsum Lorem Ipsum',
             instructions: 'Lorem Ipsum Lorem Ipsum',
         },
+        {
+            drink_name: 'LoremIpsum',
+            main_liquor: 'Rum',
+            ingredients: 'Lorem Ipsum Lorem Ipsum',
+            instructions: 'Lorem Ipsum Lorem Ipsum',
+        },
+        {
+            drink_name: 'IpsumLoremIpsum',
+            main_liquor: 'Whiskey',
+            ingredients: 'Lorem Ipsum Lorem Ipsum',
+            instructions: 'Lorem Ipsum Lorem Ipsum',
+        }
+        {
+            drink_name: 'LoremIpsum',
+            main_liquor: 'Rum',
+            ingredients: 'Lorem Ipsum Lorem Ipsum',
+            instructions: 'Lorem Ipsum Lorem Ipsum',
+        },
+        {
+            drink_name: 'IpsumLoremIpsum',
+            main_liquor: 'Whiskey',
+            ingredients: 'Lorem Ipsum Lorem Ipsum',
+            instructions: 'Lorem Ipsum Lorem Ipsum',
+        }
         {
             drink_name: 'LoremIpsum',
             main_liquor: 'Rum',

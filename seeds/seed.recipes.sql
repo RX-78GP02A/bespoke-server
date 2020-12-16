@@ -1,11 +1,11 @@
 INSERT INTO recipes (drink_name, main_liquor, ingredients, instructions)
 VALUES  
-    ('DEATH IN THE AFTERNOON', 'Absinthe', '(.75oz) Lucid, (.25oz) lemon, .25oz sugar', 'Short shake and strain into Champagne Flute and top with Champagne, Garnish: channel lemon peel.'),
-    ('ABSINTHE SUISSESSE', 'Absinthe', '(1.25oz) Vilya, (.75oz) orgeat, (.75oz) cream, 1 egg white', 'Reverse dry shake and strain Brandy snifter and add crushed ice, Garnish: grated nutmeg.'),
-    ('ABSINTHE FRAPPE', 'Absinthe', '(1.25oz) Vilya or Lucid, (.5oz) simple, 6 mint leaves', 'add crushed ice and short shake and open pour into beveled glass: top with club soda, Garnish: Mint sprig.'),
-    ('NEGRONI','Gin', '(1oz) Beefeater Dry Gin, (1oz) Dolin Rouge, (1oz) Campari', 'Stir and strain into a Big ROCKS Glass, Garnish: orange twist.'),
-    ('BEES KNEES', 'Gin', '2oz Hayman’s Old Tom Gin, (.75oz) lemon, (.75oz) honey, 2 dashes Lavender Bitters', 'Shake and strain into a Coupe glass, No Garnish.'),
-    ('SLOE GIN FIZZ', 'Gin', '(1oz) Gordon’s Gin, (1oz) Sloe Gin, (.75oz) lemon, (.75oz) simple', 'Shake and strain into a fizz glass, No garnish.'),
+    ('Death In The Afternoon', 'Absinthe', '(.75oz) Lucid, (.25oz) lemon, .25oz sugar', 'Short shake and strain into Champagne Flute and top with Champagne, Garnish: channel lemon peel.'),
+    ('Absinthe Suissesse', 'Absinthe', '(1.25oz) Vilya, (.75oz) orgeat, (.75oz) cream, 1 egg white', 'Reverse dry shake and strain Brandy snifter and add crushed ice, Garnish: grated nutmeg.'),
+    ('Absinthe Frappe', 'Absinthe', '(1.25oz) Vilya or Lucid, (.5oz) simple, 6 mint leaves', 'add crushed ice and short shake and open pour into beveled glass: top with club soda, Garnish: Mint sprig.'),
+    ('Negroni','Gin', '(1oz) Beefeater Dry Gin, (1oz) Dolin Rouge, (1oz) Campari', 'Stir and strain into a Big ROCKS Glass, Garnish: orange twist.'),
+    ('Bees Knees', 'Gin', '2oz Hayman’s Old Tom Gin, (.75oz) lemon, (.75oz) honey, 2 dashes Lavender Bitters', 'Shake and strain into a Coupe glass, No Garnish.'),
+    ('Sloe Gin Fizz', 'Gin', '(1oz) Gordon’s Gin, (1oz) Sloe Gin, (.75oz) lemon, (.75oz) simple', 'Shake and strain into a fizz glass, No garnish.'),
     ('MAI TAI', 'Rum', '(2oz) Denizen Rsv, (.5oz) Dry Curacao, (1oz) lime, (.5oz) Orgeat', 'Short shake and open pour into Etched Rocks glass, Garnish: mint & orchid'),
     ('EL PRESIDENTE', 'Rum', '(1.5oz) Flor de Cana Dry, (1.5oz) Dolin Blanc, (.25oz) dry curacao, (1) tsp grenadine, 2 dashes orange bitters', 'Stir and strain into a Coupe glass, Garnish: orange twist'), 
     ('OLD CUBAN', 'Rum', '(2oz) Flor de Cana 7 yr, (1oz) lime, (.5oz) vanilla syrup, 2 dash angostura bitters', 'Muddle mint with syrup, add ingredients and shake: Strain into a Cocktail glass and top with Champagne : Garnish: mint leaf'),
