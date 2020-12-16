@@ -1,8 +1,8 @@
-const postrecipe = require('../src/postrecipe/postrecipe-router')
-const knex = require('knex')
-const app = require('../src/app')
-const supertest = require('supertest')
-const { expect } = require('chai')
+const postrecipe = require('../src/postrecipe/postrecipe-router');
+const knex = require('knex');
+const app = require('../src/app');
+const supertest = require('supertest');
+const { expect } = require('chai');
   
 describe('POST Endpoint', () => {
     let db
@@ -13,11 +13,11 @@ describe('POST Endpoint', () => {
           connection: process.env.TEST_DATABASE_URL,
         })
         app.set('db', db)
-    })
+    });
 
-    before('cleanup', () => db('recipes').truncate())
-    afterEach('cleanup', () => db('recipes').truncate())   
-    after('disconnect from db', () => db.destroy())
+    before('cleanup', () => db('recipes').truncate());
+    afterEach('cleanup', () => db('recipes').truncate());   
+    after('disconnect from db', () => db.destroy());
 
     context('Given a new recipe', () => {
         it('Successfully posts a drink recipe given valid data', (done) => {
@@ -111,4 +111,4 @@ describe('POST Endpoint', () => {
                 .expect(400, done())
         });  
     });
-})
+});
