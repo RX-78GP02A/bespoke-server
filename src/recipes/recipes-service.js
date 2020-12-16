@@ -5,6 +5,6 @@ const RecipesService = {
             .from('recipes')
             .where('main_liquor', main_liquor)
     }
-}
+};
 
-module.exports = RecipesService
+module.exports = RecipesService;
