@@ -24,10 +24,11 @@ VALUES
     ('Vieux Carre', 'Brandy', '(.75oz) Bache Am. Oak, (.75oz) Old Overholdt Rye, (.75oz) Cocchi Torino, (.25oz) Benedictine, 2 dashes Peychaud’s, 2 dashes Angostura bitters', 'Stir and strain over ice into a Brandy snifter, Garnish: lemon twist'),
     ('Midnight Stinger', 'Brandy', '(2oz) Brandy St. Louise, (.5oz) crème de menthe, 2 dashes Herbstura', 'Stir and strain into an absinthe rinsed Coupe glass, Garnish: mint leaf'), 
     ('Prescription Julep', 'Brandy', '(1.5oz) Brandy ST. Louise, (.5oz) demerara syrup', 'muddle mint and syrup then add Cognac, Add crushed ice to Julep mug, Top with ().5oz) Rittenhouse, Garnish: mint sprig'), 
-    ('Mex. Firing Squad', 'Tequila','(2oz) Blanco Tequila, (.75oz) lime, (.75oz) grenadine, 5 dashes Angostura bitters', 'Shake and strain over ice into a Rocks glass, Garnish: lime wheel and cherry'),
-    ('JUSCHU', 'Tequlia', '(2oz) Blanco Tequila, (.75oz) lime, (.75oz) honey, 2 dashes Angostura bitters', 'Shake and strain into a Coupe glass, No garnish'),
-    ('MARGARITA', 'Tequila', '(2oz) Tequila or Mezcal, (1oz) lime, (.5oz) agave, 3 dashes saline solution', 'Shake and strain over ice into a Rocks glass, Garnish: Lime wheel'), 
+    ('Mexican Firing Squad', 'Tequila','(2oz) Blanco Tequila, (.75oz) lime, (.75oz) grenadine, 5 dashes Angostura bitters', 'Shake and strain over ice into a Rocks glass, Garnish: lime wheel and cherry'),
+    ('Juschu', 'Tequlia', '(2oz) Blanco Tequila, (.75oz) lime, (.75oz) honey, 2 dashes Angostura bitters', 'Shake and strain into a Coupe glass, No garnish'),
+    ('Margarita', 'Tequila', '(2oz) Tequila or Mezcal, (1oz) lime, (.5oz) agave, 3 dashes saline solution', 'Shake and strain over ice into a Rocks glass, Garnish: Lime wheel'), 
     ('MEZCAL NEGRONI', 'Mezcal', '(1oz) Fidencio Mezcal, (1oz) Ramazzotti, (1oz) Punt e Mes', 'Stir and strain over ice into a Big Rocks glass, Garnish: orange twist'),
+    ('MARGARITA', 'Tequila', '(2oz) Tequila or Mezcal, (1oz) lime, (.5oz) agave, 3 dashes saline solution', 'Shake and strain over ice into a Rocks glass, Garnish: Lime wheel'), 
     ('MEDICINA LATINA', 'Mezcal', '1.5oz Nuestra Soledad, (.75oz) lime, (.5oz) honey, (.25oz) ginger syrup', 'muddled ginger and pinch of Tajin : add remaining ingredients, Shake and strain over ice into a Rocks glass, Float .5oz Fidencio Mezcal : Garnish: candied ginger');
 
     COMMIT;
