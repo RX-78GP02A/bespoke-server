@@ -32,7 +32,7 @@ app.use(cors({
 
 //testing endpoint
 app.get('/', (req, res) => {
-  res.send('Welcome to Bespoke Server!')
+  res.send('Welcome to Bespoke Server')
 });
 // path '/postrecipe' , route handler function postRecipeRouter
 app.use('/postrecipe', postRecipeRouter);
