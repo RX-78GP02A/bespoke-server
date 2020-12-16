@@ -47,7 +47,7 @@ describe('Recipes Endpoint', () => {
         },
         {
             drink_name: 'LoremIpsum',
-            main_liquor: 'Rum',
+            main_liquor: 'Brandy',
             ingredients: 'Lorem Ipsum Lorem Ipsum',
             instructions: 'Lorem Ipsum Lorem Ipsum',
         },
