@@ -40,14 +40,14 @@ describe('Recipes Endpoint', () => {
             it('responds with 200 and the specified recipe by main_liquor', (done) => {
                 const main_liquor = 'Vodka';
                 const expectedRecipe = testRecipes['Vodka']
-                    return supertest(collections)
-                        .get(`/collections?main_liquor=${main_liquor}`)
+                    return supertest(recipes)
+                        .get(`/recipes?main_liquor=${main_liquor}`)
                         .expect(200, expectedRecipe, done())
             });
             it('responds with a 400 when the req.query is not valid', (done) => {
                 const invalid_main_liquor = null;
-                return supertest(collections)
-                    .get('/collections')
+                return supertest(recipes)
+                    .get('/recipes')
                     .send(invalid_main_liquor)
                     .expect(400, done())
             });

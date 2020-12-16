@@ -15,8 +15,8 @@ describe('POST Endpoint', () => {
         app.set('db', db)
     })
 
-    before('cleanup', () => db('collections').truncate())
-    afterEach('cleanup', () => db('collections').truncate())   
+    before('cleanup', () => db('recipes').truncate())
+    afterEach('cleanup', () => db('recipes').truncate())   
     after('disconnect from db', () => db.destroy())
 
     context('Given a new recipe', () => {

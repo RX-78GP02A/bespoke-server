@@ -1,12 +1,3 @@
-BEGIN;
-
-TRUNCATE
-  recipes_users,
-  recipes
-  RESTART IDENTITY CASCADE;
-
-
-
 INSERT INTO recipes (drink_name, main_liquor, ingredients, instructions)
 VALUES  
     ('DEATH IN THE AFTERNOON', 'Absinthe', '(.75oz) Lucid, (.25oz) lemon, .25oz sugar', 'Short shake and strain into Champagne Flute and top with Champagne, Garnish: channel lemon peel.'),
