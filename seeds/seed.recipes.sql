@@ -26,9 +26,7 @@ VALUES
     ('Prescription Julep', 'Brandy', '(1.5oz) Brandy ST. Louise, (.5oz) demerara syrup', 'muddle mint and syrup then add Cognac, Add crushed ice to Julep mug, Top with ().5oz) Rittenhouse, Garnish: mint sprig'), 
     ('Mexican Firing Squad', 'Tequila','(2oz) Blanco Tequila, (.75oz) lime, (.75oz) grenadine, 5 dashes Angostura bitters', 'Shake and strain over ice into a Rocks glass, Garnish: lime wheel and cherry'),
     ('Juschu', 'Tequlia', '(2oz) Blanco Tequila, (.75oz) lime, (.75oz) honey, 2 dashes Angostura bitters', 'Shake and strain into a Coupe glass, No garnish'),
-    ('Margarita', 'Tequila', '(2oz) Tequila or Mezcal, (1oz) lime, (.5oz) agave, 3 dashes saline solution', 'Shake and strain over ice into a Rocks glass, Garnish: Lime wheel'), 
-    ('MEZCAL NEGRONI', 'Mezcal', '(1oz) Fidencio Mezcal, (1oz) Ramazzotti, (1oz) Punt e Mes', 'Stir and strain over ice into a Big Rocks glass, Garnish: orange twist'),
-    ('MARGARITA', 'Tequila', '(2oz) Tequila or Mezcal, (1oz) lime, (.5oz) agave, 3 dashes saline solution', 'Shake and strain over ice into a Rocks glass, Garnish: Lime wheel'), 
-    ('MEDICINA LATINA', 'Mezcal', '1.5oz Nuestra Soledad, (.75oz) lime, (.5oz) honey, (.25oz) ginger syrup', 'muddled ginger and pinch of Tajin : add remaining ingredients, Shake and strain over ice into a Rocks glass, Float .5oz Fidencio Mezcal : Garnish: candied ginger');
-
-    COMMIT;
+    ('Margarita', 'Tequila', '(2oz) Tequila, (1oz) lime, (.5oz) agave, 3 dashes saline solution', 'Shake and strain over ice into a Rocks glass, Garnish: Lime wheel'), 
+    ('Mezcal Negroni', 'Mezcal', '(1oz) Fidencio Mezcal, (1oz) Ramazzotti, (1oz) Punt e Mes', 'Stir and strain over ice into a Big Rocks glass, Garnish: orange twist'),
+    ('Mezcal Margarita', 'Mezcal', '(2oz) Mezcal, (1oz) lime, (.5oz) agave, 3 dashes saline solution', 'Shake and strain over ice into a Rocks glass, Garnish: Lime wheel'), 
+    ('Medicina Latina', 'Mezcal', '1.5oz Nuestra Soledad, (.75oz) lime, (.5oz) honey, (.25oz) ginger syrup', 'muddled ginger and pinch of Tajin : add remaining ingredients, Shake and strain over ice into a Rocks glass, Float .5oz Fidencio Mezcal : Garnish: candied ginger');
