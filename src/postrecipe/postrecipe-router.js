@@ -1,9 +1,9 @@
-const express = require('express')
-const path = require('path')
-const xss = require('xss')
-const PostRecipeService = require('./postrecipe-service')
-const postRecipeRouter = express.Router()
-const jsonParser = express.json()
+const express = require('express');
+const path = require('path');
+const xss = require('xss');
+const PostRecipeService = require('./postrecipe-service');
+const postRecipeRouter = express.Router();
+const jsonParser = express.json();
 
 //use serializeRecipe to sanitize user inputs
 //using xss dependency
@@ -14,7 +14,7 @@ const serializeRecipe = recipe => ({
     ingredients: xss(recipe.ingredients),
     instructions: xss(recipe.instructions),
     created: recipe.created
-})
+});
 
 postRecipeRouter    
     .route('/')
@@ -50,7 +50,7 @@ postRecipeRouter
                 .json(serializeRecipe(recipe))
         })
         .catch(next)
-    })
+    });
 
 
-module.exports = postRecipeRouter
+module.exports = postRecipeRouter;
