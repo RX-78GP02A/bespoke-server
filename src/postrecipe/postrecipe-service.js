@@ -8,6 +8,6 @@ const PostRecipeService = {
                 return rows[0]
             })
     }
-}
+};
 
-module.exports = PostRecipeService
+module.exports = PostRecipeService;
