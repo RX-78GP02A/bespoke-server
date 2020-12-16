@@ -25,7 +25,7 @@ VALUES
     ('Midnight Stinger', 'Brandy', '2oz Brandy St. Louise, .5oz crème de menthe, 2 dashes Herbstura', 'Stir and strain into an absinthe rinsed Coupe glass, Garnish: mint leaf'), 
     ('Prescription Julep', 'Brandy', '1.5oz Brandy ST. Louise, .5oz demerara syrup', 'muddle mint and syrup then add Cognac, Add crushed ice to Julep mug, Top with .5oz Rittenhouse, Garnish: mint sprig'), 
     ('Mexican Firing Squad', 'Tequila','2oz Blanco Tequila, .75oz lime, .75oz grenadine, 5 dashes Angostura bitters', 'Shake and strain over ice into a Rocks glass, Garnish: lime wheel and cherry'),
-    ('Juschu', 'Tequlia', '2oz Blanco Tequila, .75oz lime, .75oz honey, 2 dashes Angostura bitters', 'Shake and strain into a Coupe glass, No garnish'),
+    ('Juschu', 'Tequila', '2oz Blanco Tequila, .75oz lime, .75oz honey, 2 dashes Angostura bitters', 'Shake and strain into a Coupe glass, No garnish'),
     ('Margarita', 'Tequila', '2oz Tequila, 1oz lime, .5oz agave, 3 dashes saline solution', 'Shake and strain over ice into a Rocks glass, Garnish: Lime wheel'), 
     ('Mezcal Negroni', 'Mezcal', '1oz Fidencio Mezcal, 1oz Ramazzotti, 1oz Punt e Mes', 'Stir and strain over ice into a Big Rocks glass, Garnish: orange twist'),
     ('Mezcal Margarita', 'Mezcal', '2oz Mezcal, 1oz lime, .5oz agave, 3 dashes saline solution', 'Shake and strain over ice into a Rocks glass, Garnish: Lime wheel'), 
