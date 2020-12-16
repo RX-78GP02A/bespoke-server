@@ -1,5 +1,5 @@
-const express = require('express')
-const RecipesService = require('./recipes-service')
+const express = require('express');
+const RecipesService = require('./recipes-service');
 const recipesRouter = express.Router();
 
 recipesRouter
@@ -26,6 +26,6 @@ recipesRouter
                 .json(recipes)
         })
         .catch(next)
-    })
+    });
 
-module.exports = recipesRouter
+module.exports = recipesRouter;
