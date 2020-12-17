@@ -1,5 +1,5 @@
 # BESPOKE-SERVER
-This is the backend server for Bespoke client: frontend @ https://github.com/RX-78GP02A/bespoke-cilent
+This is the backend server for Bespoke client: frontend @ https://github.com/RX-78GP02A/bespoke-client
 
 Live demo of app hosted on vercel: 
 
@@ -18,8 +18,10 @@ Core Technologies
 
 Services
 
-> /recipes: GET, POST, PATCH
-> /POST: GET, POST, 
+> /Recipes: GET
+> /POST: POST
+
+
 > Local/Development Set-up
 
 <img width="1186" alt="Screen Shot 2020-12-15 at 3 19 20 PM" src="https://user-images.githubusercontent.com/67432727/102273991-2db7e900-3ef1-11eb-8a58-151806abddf8.png">> 
