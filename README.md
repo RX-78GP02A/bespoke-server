@@ -1,8 +1,7 @@
 # BESPOKE-SERVER
 This is the backend server for Bespoke client: frontend @ https://github.com/RX-78GP02A/bespoke-client
 
-Live demo of app hosted on vercel: 
-
+Live demo of app hosted on vercel: https://bespoke-cilent.vercel.app/
 Live version of server hosted on heroku https://stark-river-56520.herokuapp.com/
 
 Core Technologies
